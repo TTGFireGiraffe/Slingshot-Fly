@@ -69,14 +69,14 @@ namespace BananaOS.Pages
                     break;
 
                 case WatchButtonType.Right:
-                    if (selectionHandler.currentIndex == 2)
+                    if (selectionHandler.currentIndex == 1)
                     {
                         speed += 10f;
                     }
                     break;
 
                 case WatchButtonType.Left:
-                    if (selectionHandler.currentIndex == 2)
+                    if (selectionHandler.currentIndex == 1)
                     {
                         if (speed > 500)
                         {
@@ -89,12 +89,16 @@ namespace BananaOS.Pages
                 case WatchButtonType.Enter:
                     if (selectionHandler.currentIndex == 0)
                     {
-                        FlyMonke = true;
+                        if (!FlyMonke)
+                        {
+                            FlyMonke = true;
+                        }
+                        else
+                        {
+                            FlyMonke = false;
+                        }
                     }
-                    if (selectionHandler.currentIndex == 1)
-                    {
-                        FlyMonke = false;
-                    }
+
                     return;
 
                 //It is recommended that you keep this unless you're nesting pages if so you should use the SwitchToPage method
