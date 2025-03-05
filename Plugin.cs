@@ -3,7 +3,7 @@ using System;
 using UnityEngine;
 using Utilla;
 
-namespace Fly
+namespace SlingShotFly
 {
     /// <summary>
     /// This is your mod's main class.

@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace Fly
+namespace SlingShotFly
 {
     /// <summary>
     /// This class handles applying harmony patches to the game.

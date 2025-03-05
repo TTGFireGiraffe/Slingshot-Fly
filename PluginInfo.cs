@@ -1,12 +1,12 @@
-﻿namespace Fly
+﻿namespace SlingShotFly
 {
     /// <summary>
     /// This class is used to provide information about your mod to BepInEx.
     /// </summary>
     internal class PluginInfo
     {
-        public const string GUID = "com.firegiraffe.gorillatag.fly";
-        public const string Name = "Fly";
-        public const string Version = "1.0.0";
+        public const string GUID = "com.firegiraffe.gorillatag.slingshotfly";
+        public const string Name = "SlingShotFly";
+        public const string Version = "0.0.3";
     }
 }
